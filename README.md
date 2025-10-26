@@ -1,4 +1,4 @@
-# Sistema de Registro de Entrada e Saída com Alertas de Permanência e Intervalo de Almoço
+# Sistema de registro de entrada e saída com alertas de permanência e intervalo de almoço
 
 ## Descrição
 Este projeto implementa um sistema simples para registrar **entradas, saídas e intervalos de almoço** de colaboradores em uma pequena empresa. O sistema gera **alertas automáticos** quando:
