@@ -1,0 +1,15 @@
+from datetime import time
+
+# ===== Regras (padrões) - edite conforme a empresa =====
+MAX_PERMANENCIA_HORAS = 10          # alerta se exceder no dia
+ALMOCO_MIN_MINUTOS = 60             # almoço mínimo
+ALMOCO_JANELA_INICIO = time(11, 0)  # 11:00
+ALMOCO_JANELA_FIM = time(15, 0)     # 15:00
+ALERTA_SEM_ALMOCO_APOS_HORAS = 6    # alerta se 6h após entrada sem almoço
+
+# Colaboradores (mock simples). Em produção, ler de DB/planilha.
+COLABORADORES = {
+    "c001": "Ana",
+    "c002": "Bruno",
+    "c003": "Carla",
+}
