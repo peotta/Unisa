@@ -1,14 +1,12 @@
-# Unisa
 # Sistema de Registro de Entrada e Saída com Alertas de Permanência e Intervalo de Almoço
 
 ## Descrição
-Este projeto implementa um sistema simples para registrar **entradas, saídas e intervalos de almoço** de colaboradores em uma pequena empresa.  
-O sistema gera **alertas automáticos** quando:
+Este projeto implementa um sistema simples para registrar **entradas, saídas e intervalos de almoço** de colaboradores em uma pequena empresa. O sistema gera **alertas automáticos** quando:
 - o tempo máximo de permanência na empresa é excedido;
 - o intervalo de almoço é inferior ao mínimo configurado;
 - o colaborador permanece mais de 6 horas sem iniciar o almoço.
 
-A aplicação foi desenvolvida em **Python 3.13** com o framework **FastAPI**, visando praticidade, portabilidade e clareza didática para alunos de Engenharia da Computação.
+A aplicação foi desenvolvida em **Python 3.13** com o framework **FastAPI**, buscando rapidez para implementação e testes, praticidade e portabilidade.
 
 ---
 
@@ -28,14 +26,14 @@ registro_ponto/
 
 ## Instalação e Execução
 
-### 1️⃣ Requisitos
+### 1️ Requisitos
 - **Python 3.10+** (testado em 3.13)
 - `pip` instalado e funcional
 - Sistema operacional Linux, Windows ou macOS
 
 ---
 
-### 2️⃣ Instalar dependências
+### 2 Instalar dependências
 
 No terminal, dentro da pasta do projeto:
 
@@ -43,7 +41,7 @@ No terminal, dentro da pasta do projeto:
 pip install --break-system-packages "fastapi[standard]" "uvicorn[standard]"
 ```
 
-> 💡 Se preferir usar ambiente virtual:
+> Para ambiente virtual:
 > ```bash
 > python3 -m venv .venv
 > source .venv/bin/activate
@@ -52,7 +50,7 @@ pip install --break-system-packages "fastapi[standard]" "uvicorn[standard]"
 
 ---
 
-### 3️⃣ Executar o servidor
+### 3 Executar o servidor
 
 Ainda dentro da pasta:
 
@@ -68,17 +66,17 @@ INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 
 ---
 
-### 4️⃣ Acessar a interface de testes
+### 4️ Acessar a interface de testes
 
 Abra no navegador:
 
-👉 **http://127.0.0.1:8000/docs**
+**http://127.0.0.1:8000/docs**
 
 Essa página (Swagger UI) permite testar todos os endpoints.
 
 ---
 
-## 🧠 Endpoints Principais
+## Endpoints Principais
 
 | Método | Rota | Descrição |
 |:-------|:------|:-----------|
@@ -88,7 +86,7 @@ Essa página (Swagger UI) permite testar todos os endpoints.
 
 ---
 
-## 🧪 Exemplos de Uso
+## Exemplos de Uso
 
 ### Registrar Entrada
 ```json
@@ -167,4 +165,4 @@ O código é de uso livre para estudos e pode ser adaptado para futuras implemen
 
 ## Autor
 **Laerte Peotta de Melo**
-Universidade de Santo Amaro – UNISA
+Universidade Santo Amaro – UNISA
