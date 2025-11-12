@@ -65,7 +65,6 @@ INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 ```
 <img width="727" height="228" alt="image" src="https://github.com/user-attachments/assets/7622f1e0-3ac2-420f-b331-86ece38cf36a" />
 
-
 ---
 
 ### 4️ Acessar a interface de testes
@@ -75,6 +74,10 @@ Abra no navegador:
 **http://127.0.0.1:8000/docs**
 
 Essa página (Swagger UI) permite testar todos os endpoints.
+
+<img width="893" height="481" alt="image" src="https://github.com/user-attachments/assets/a94b33e4-2ba4-4af3-831e-b80181cf9d53" />
+
+
 
 ---
 
